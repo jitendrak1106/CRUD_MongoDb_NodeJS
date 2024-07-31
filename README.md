@@ -13,10 +13,13 @@ Following are the softwares requried to install.
 
 ### Install the project
 
-  - Install the packages mentioned in package.json file for getting all dependencies of the project.
+- Install the packages mentioned in package.json file for getting all dependencies of the project.
+  <br/>
+  
   ```
   npm install --save
   ```
+
 - Starting the application using below command
   <br/>
   
@@ -30,6 +33,7 @@ Following are the softwares requried to install.
 	- Method: POST
 	- URL : http://localhost:3000/create
 	- Payload: 
+		```
 		{
 			"ranking":11,
 			"name":"name 11",
@@ -38,11 +42,12 @@ Following are the softwares requried to install.
 			"score": "1365",
 			"event": "100m"
 		}
-
+		```
   - Get All <br>
 	- Method : GET
 	- URL : http://localhost:3000/getMens
 	- Response:
+		```
 		[
 			{
 				"_id": "66a73fcf01d4bb4ae24c9249",
@@ -65,11 +70,13 @@ Following are the softwares requried to install.
 				"__v": 0
 			}
 		]
+		```
 
   - Get Record by id <br>
 	- Method : GET
 	- URL : http://localhost:3000/getMen/66a7498fc38635832a485e1b
 	- Response:
+			```
 			{
 				"_id": "66a7498fc38635832a485e1b",
 				"ranking": 3,
@@ -80,15 +87,20 @@ Following are the softwares requried to install.
 				"event": "200m",
 				"__v": 0
 			}
+			```
 
   - Update <br>
 	- Method: PATCH
 	- URL : http://localhost:3000/update/66a7498fc38635832a485e1b
 	- Payload: 
+		```
 		{
 			"name":"updated name 13"
-		}			
-	- Response:
+		}
+		```
+
+	- Response: 
+		```
 		{
 			"_id": "66a7498fc38635832a485e1b",
 			"ranking": 3,
@@ -99,13 +111,14 @@ Following are the softwares requried to install.
 			"event": "200m",
 			"__v": 0
 		}
-
+		```
 
   - Delete <br>
 	- Method: DELETE
 	- URL : http://localhost:3000/delete/66a7498fc38635832a485e1b
 
 	- Response:
+```
 		{
 			"_id": "66a7498fc38635832a485e1b",
 			"ranking": 3,
@@ -116,6 +129,7 @@ Following are the softwares requried to install.
 			"event": "200m",
 			"__v": 0
 		}
+```
 
 ## Developers
 
