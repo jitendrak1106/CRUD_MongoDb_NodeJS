@@ -76,18 +76,18 @@ Following are the softwares requried to install.
 	- Method : GET
 	- URL : http://localhost:3000/getMen/66a7498fc38635832a485e1b
 	- Response:
-			```
-			{
-				"_id": "66a7498fc38635832a485e1b",
-				"ranking": 3,
-				"name": "name 3",
-				"dob": "1996-04-05T18:30:00.000Z",
-				"country": "Sri Lanka",
-				"score": 1300,
-				"event": "200m",
-				"__v": 0
-			}
-			```
+		```
+		{
+			"_id": "66a7498fc38635832a485e1b",
+			"ranking": 3,
+			"name": "name 3",
+			"dob": "1996-04-05T18:30:00.000Z",
+			"country": "Sri Lanka",
+			"score": 1300,
+			"event": "200m",
+			"__v": 0
+		}
+		```
 
   - Update <br>
 	- Method: PATCH
