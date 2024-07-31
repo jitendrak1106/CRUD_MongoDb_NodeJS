@@ -118,7 +118,7 @@ Following are the softwares requried to install.
 	- URL : http://localhost:3000/delete/66a7498fc38635832a485e1b
 
 	- Response:
-```
+		```
 		{
 			"_id": "66a7498fc38635832a485e1b",
 			"ranking": 3,
@@ -129,7 +129,7 @@ Following are the softwares requried to install.
 			"event": "200m",
 			"__v": 0
 		}
-```
+		```
 
 ## Developers
 
